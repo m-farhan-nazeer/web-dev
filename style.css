@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Poppins:wght@400;500;600;700&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+       font-family: "Poppins", sans-serif; 
+}
+
+.topright{
+    width: 50%;
+    background-image: url('./images/bg-pattern-top-desktop.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.top{
+    display: flex;
+    justify-content: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 100px;
+    flex-wrap: wrap;
+
+}
+.topright{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.topright h1{
+    margin-bottom: 1rem;
+    width: 50%;
+    color:hsl(300, 43%, 24%) ;
+    font-size: 2rem;
+    font-weight: 900;
+    text-shadow: 1px 1px 0 hsl(300, 43%, 24%);
+}
+.topright p{
+    width: 50%;
+}
+.topleft{
+    width: 50%;
+}
+.box{
+    width: 400px;
+}
+.box:nth-of-type(2){
+    margin-left:40px ;
+}
+.box:nth-of-type(3){
+    margin-left:80px ;
+}
+
+
+
+
+.bottom{
+    margin-top: 100px;
+    background-image: url('./images/bg-pattern-top-desktop.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.box{
+    display: flex;
+    background-color:hsl(333, 80%, 97%);
+    margin:1rem;
+    padding: 1rem;
+    border-radius: 10px;
+    
+    
+
+}
+.box img{
+    height: 20px;
+    width: 20px;
+    margin: 0.2rem;
+}
+.box p{
+    margin-left: 1rem;
+    color: hsl(300, 43%, 24%);
+    font-weight: 100;
+}
+
+.bottom{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card{
+    width: 400px;
+    height: 250px;
+    background-color: hsl(300, 43%, 24%);
+    margin: 10px;
+    border-radius: 10px ;
+    color: white;
+    text-wrap: balance;
+}
+.info{
+    display: flex;
+
+}
+.info img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin: 10px;
+}
+.name{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.para{
+    margin: 10px;
+}
+.card:nth-of-type(2){
+    margin-top: 30px;
+}
+.card:nth-of-type(3){
+    margin-top: 60px;
+}
+
+
+
+
+
+
+

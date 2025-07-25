@@ -1,0 +1,57 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.container{
+    background: url('./images/background.png') center/cover;
+    height: 900px;
+    background-repeat: no-repeat;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+
+    
+}
+.head{
+    /* margin-top: 200px; */
+    align-self: center;
+}
+.head h1{
+    font-size: 3rem;
+    font-weight: 900;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.511);
+}
+.images{
+    
+    display: flex;
+    
+    justify-content: center;
+}
+
+.image1{
+    width: 600px;
+    height: 400px;
+    z-index: 1;
+    position: relative;
+    left: 100px;
+
+}
+.image2{
+    width: 600px;
+    height: 400px;
+    position: relative;
+    bottom: 100px;
+
+    z-index: 2;
+}
+.image3{
+    width: 600px;
+    height: 400px;
+    z-index: 1;
+    position: relative;
+    right: 200px;
+}

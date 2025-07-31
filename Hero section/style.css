@@ -1,0 +1,47 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    background-color: #202020;
+}
+
+.nav{
+    margin: 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+.info{
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+}
+.head{
+    display: flex;
+    margin: 3rem;
+    justify-content: space-between;
+}
+.head button{
+    background-color: #FEEA36;
+    border-radius: 30px ;
+    width: 150px;
+    height: 40px;;
+}
+.head h1{
+    font-size:4rem;
+    width: 60%;
+}
+.bottom{
+    margin: 2rem;
+    margin-left: 5rem;
+    width: 40%;
+    gap: 1.5rem;
+    font-size: 1.2rem;
+}
+.bottom-img{
+    height: 500px;
+    width: 90%;
+
+}
+
+
+

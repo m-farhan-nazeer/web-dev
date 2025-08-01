@@ -49,3 +49,18 @@ let obj ={
 for(let a in obj){
     console.log("marks of "+a +"is : "+obj[a])
 }
+
+//while loops
+
+n = 5;
+i=10;
+// while(i<=n){
+//     console.log(i);
+//     i++;
+// }
+
+//do while
+do{
+    console.log(i);
+    i++;
+}while(i<=n)

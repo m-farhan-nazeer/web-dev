@@ -33,4 +33,5 @@ switch(fruit){
 
 
 }
-
+let age = 10;
+console.log("you can ",age<18?"not drive":"drive")

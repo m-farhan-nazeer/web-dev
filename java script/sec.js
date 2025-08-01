@@ -21,3 +21,27 @@ console.log(a);
 for (let i of a){
     console.log(i)
 }
+
+
+//map function
+let arr2 = [3,2,4,55,33,55,222];
+let b = arr2.map((value,index,array)=>{
+    return value+index
+})
+console.log(b)
+
+//filter function
+let arr3 = [3,2,4,55,33,55,222];
+let c = arr3.filter((a)=>{
+    return a <5;
+})
+console.log(c)
+
+//reduce
+let arr4 = [3,2,4,55,33,55,222];
+
+const reduce_fun = (h1,h2)=>{
+    return h1 + h2
+}
+let f = arr4.reduce(reduce_fun);
+console.log(f)

@@ -35,3 +35,17 @@ switch(fruit){
 }
 let age = 10;
 console.log("you can ",age<18?"not drive":"drive")
+
+//loops
+
+for (let i=0;i<5;i++){
+    console.log(i)
+}
+let obj ={
+    ajeem:54,
+    ali:38,
+    hd:33
+}
+for(let a in obj){
+    console.log("marks of "+a +"is : "+obj[a])
+}

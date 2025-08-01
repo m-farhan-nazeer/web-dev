@@ -15,4 +15,22 @@ let d = 6;
 let f = '6';
 console.log(d==f);
 console.log(d===f)
+// let h = prompt("enter your age");
+
+//switch statement 
+
+let fruit = 'banana';
+switch(fruit){
+    case "banana":
+        console.log("banasa are very expensive")
+        break
+    case "apple":
+        console.log("An apple a day feels better ")
+        break
+
+    default:
+        console.log("we are out of that fruit")
+
+
+}
 

@@ -8,7 +8,11 @@ let c={
 }
 console.log(c);
 c['name']='ali';
-console.log(c)
+console.log(c.name)
 c={};
 console.log(c)
+let d = 6;
+let f = '6';
+console.log(d==f);
+console.log(d===f)
 

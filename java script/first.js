@@ -63,4 +63,17 @@ i=10;
 do{
     console.log(i);
     i++;
-}while(i<=n)
+}while(i<=n);
+
+
+//template strings
+let boy1 = 'ali';
+let boy2 = 'Ahmad';
+let sentence = `${boy1} is the friend of ${boy2}`
+console.log(sentence)
+
+
+
+
+
+

@@ -25,3 +25,7 @@ const x = (event) => {
     if (btn1) btn1.addEventListener("click", x);
     if (btn2) btn2.addEventListener("click", y);
     if (btn3) btn3.addEventListener("click", z);
+
+    document.getElementById("google").addEventListener("click",function(){
+        window.location=("https://google.com")
+    })

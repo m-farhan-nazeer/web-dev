@@ -29,3 +29,9 @@ const x = (event) => {
     document.getElementById("google").addEventListener("click",function(){
         window.location=("https://google.com")
     })
+
+    setInterval(async function() {
+        document.querySelector('#bulb').classList.toggle("bulb")
+        
+    },300)
+

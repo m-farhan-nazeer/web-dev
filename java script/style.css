@@ -17,3 +17,8 @@ li{
 
 }
 
+.bulb{
+    background-color: yellow;
+    height: 350px;
+    width: 350px;
+}

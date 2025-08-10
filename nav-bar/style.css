@@ -1,0 +1,63 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    background-color: gray;
+}
+
+.navi{
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+    
+}
+.navi li a {
+    text-decoration: none;
+    
+    font-size: 1.5rem;
+    color: black;
+    
+}
+nav h1{
+    font-size: 2rem;
+
+}
+.navi li a:hover{
+    cursor: pointer;
+    color: aqua;
+    text-decoration:underline;
+    transition: 0.4ms ease-in;
+}
+.togglebtn{
+    display: none;
+}
+
+
+@media(max-width:760px){
+    .navi{
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        background-color: antiquewhite;
+        top: 100px;
+        right: 40px;
+    }
+    .togglebtn{
+        display: block;
+        position: absolute;
+        top: 2.7rem;
+        right: 20px;
+    }
+    .navi.active{
+        display: flex;
+        transition: 0.4s ease-in;
+    }
+    
+}

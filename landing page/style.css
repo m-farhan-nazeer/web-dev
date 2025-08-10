@@ -8,7 +8,7 @@
 /* Navbar */
 
 nav{
-
+    position: relative;
     display: flex;
     justify-content: space-between;
 }
@@ -126,3 +126,38 @@ a{
    
     
 }
+.menu-toggle{
+    display: none;
+}
+
+
+
+@media (max-width:980px){
+    
+    nav{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .menu-toggle{
+        position: absolute;
+        display: block;
+        top: 20px;
+        right: 20px;
+        transition: 0.7ms ease-in;
+        
+    }
+    .links {
+        display: flex;
+        flex-direction: row; /* stays horizontal */
+        position: absolute;    /* stays in flow */
+        right: -2000;
+        top: 60px;
+    }
+    .links.active{
+        right: 0;
+    }
+}
+
+

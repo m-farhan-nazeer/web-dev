@@ -2,6 +2,12 @@ from django.urls import path
 
 from . import views
 
+#for multiple apps 
+app_name = "polls"
+
+# in index.html
+# <li><a href="{% url 'polls:detail' question.id %}">{{ question.question_text }}</a></li>
+
 urlpatterns = [
     # ex: /polls/
     path("", views.index, name="index"),
